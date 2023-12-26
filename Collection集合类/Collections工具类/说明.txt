@@ -1,0 +1,1 @@
+集合操作工具类 java.util.Collections工具类，方法全静态

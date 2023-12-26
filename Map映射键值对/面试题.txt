@@ -1,0 +1,24 @@
+HashMap和Hashtable的区别
+    HashMap     1.2出现
+        线程不安全，运行速度快
+        允许存储null
+    Hashtable   1.0出现
+        线程安全，运行速度慢
+        不允许存储null
+
+List,Set,Map等接口是否都继承子Map接口吗?
+    List,Set 继承 Collection接口
+    Map独立接口。不继承Collection
+
+Set和Map有什么关系，
+    Set集合底层使用的就是Map集合
+
+你常见的集合类有哪些，都有什么方法
+    常见的，使用频率高的集合
+        List    ArrayList
+        Set     HashSet
+        Map     HashMap
+    Collection
+        List Set常见方法 add size iterator
+    Map
+        常用方法    put get keySet entrySet size

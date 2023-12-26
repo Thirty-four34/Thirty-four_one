@@ -1,0 +1,32 @@
+第十九天总结
+1.Map集合
+    1.1 Map存储的是键值对，键唯一性，只能映射一个值
+    1.2 Map接口中的方法
+        entrySet size put get keySet
+2。Map集合获取方式
+    2.1 map集合获取方式依赖Set集合
+    2.2 keySet方式，实际使用多，简单
+    2.3 entryset方法，面试多，代码结构复杂，内部接口
+3.HashMap
+    3.1 底层哈希表
+    3.2 线程不安全
+    3.3 集合是允许存储null值，null键
+    3.4 存储到键的对象，必须实现hashCode equals保证唯一性案例，
+    HashMap存储student并迭代，两种方式扩展for
+4.Hashtable
+    4.1 底层哈希表
+    4.2 线程不安全
+    4.3 null值，nu11键，不允许存储，如果存储，运行的时候出现空指针异常
+5.TreeMap
+    5.1 底层红黑树
+    5.2 存储的键，进行自然顺序排序
+    5.3 定义比较器，传递给TreeMap构造案例: TreeMap存储stundet，并选代，两种方式
+        带比较器和自然顺序
+6.Arrays asList
+    6.1 转成的集合，不能改变大小
+    6.2 基本类型不接收，使用对象包装类
+7.Collections
+    7.1 sort
+    7.2 reverorder
+    7.3 binarysearch
+    7.4 synchronized开

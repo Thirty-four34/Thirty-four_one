@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Operation"/>
+	<classpathentry kind="src" path="Flow Of Control"/>
+	<classpathentry kind="src" path="Array"/>
+	<classpathentry kind="src" path="Experiment"/>
+	<classpathentry kind="src" path="Classes and Objects"/>
+	<classpathentry kind="src" path="Interface And Inheritance"/>
+	<classpathentry kind="src" path="Numbers And Strings"/>
+	<classpathentry kind="src" path="IO输入输出流"/>
+	<classpathentry kind="src" path="new_Date"/>
+	<classpathentry kind="src" path="Collection集合类"/>
+	<classpathentry kind="src" path="尚硅谷/面向对象——中___P248"/>
+	<classpathentry kind="src" path="尚硅谷/Tests"/>
+	<classpathentry kind="src" path="Map映射键值对"/>
+	<classpathentry kind="src" path="集合练习_斗地主"/>
+	<classpathentry excluding="面向对象——中___P248/|Tests/|面向对象——中___P249/|面向对象——中___P249/|out/production/尚硅谷/" kind="src" path="尚硅谷"/>
+	<classpathentry kind="src" path="尚硅谷/面向对象——中___P249"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

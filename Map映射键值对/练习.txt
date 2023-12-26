@@ -1,0 +1,17 @@
+1.Map和Collection的区别
+    Map Collection没有关系
+    Map存储键值对
+    Collection单一对象
+2。Map接口中的常用方法，至少4个
+    put get keySet entryset
+3。熟练Map集合的选代方式代码
+    对于Map集合，获取方式，两种(keySet 和 entryset)必须熟练
+4。HashMap 和 Hashtable 的区别
+    HashMap 线程不安全nul1允许的
+    Hashtable 线程安全nul1不允许
+5.Collections类的方法 reverseorder 的意义
+    reverseOrder ，调用空参数，返回比较器，逆转对象自然顺序 comparable
+    调用有参数，传递比较器，逆转传递比较器，自己传递比较器实现 comparator
+6．数组转成集合的注意事项
+    集合长度不能改变
+    使用包装类，不能使用 int char等基本类型

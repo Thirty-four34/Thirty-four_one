@@ -1,0 +1,7 @@
+Map接口派系中的类Hashtable 出现版本早于集合框架JDK1.0出现
+底层数据结构哈希表
+不允许存储null值，null键
+线程安全，运行速度慢
+已经被HashMap取代
+Hashtable操作方式，存储取出和HashMap完全一样没有集合框架之前存储键值对，依靠HashtableHashtable
+退出历史舞台 ，但是孩子Properties依然活跃在开发舞台
